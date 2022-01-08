@@ -82,3 +82,5 @@ D:\User\Desktop\Week18\Finals_3\bin\Debug\netcoreapp3.1\AForge.Imaging.Formats.d
 D:\User\Desktop\Week18\Finals_3\bin\Debug\netcoreapp3.1\AForge.Math.dll
 D:\User\Desktop\Week18\Finals_3\obj\Debug\netcoreapp3.1\Finals.csproj.CopyComplete
 D:\User\Desktop\Week18\Finals_3\obj\Debug\netcoreapp3.1\Finals.genruntimeconfig.cache
+D:\GitHub\Automatic_Optical_Inspection_Practice\Automatic Optical Inspection Practice Final Exam\Question_3\obj\Debug\netcoreapp3.1\Finals.dll
+D:\GitHub\Automatic_Optical_Inspection_Practice\Automatic Optical Inspection Practice Final Exam\Question_3\obj\Debug\netcoreapp3.1\Finals.pdb

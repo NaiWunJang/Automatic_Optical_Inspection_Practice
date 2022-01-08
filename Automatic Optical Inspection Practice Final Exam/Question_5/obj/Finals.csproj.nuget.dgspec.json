@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\User\\Desktop\\Week18\\Finals_5_unfinish\\Finals.csproj": {}
+    "D:\\GitHub\\Automatic_Optical_Inspection_Practice\\Automatic Optical Inspection Practice Final Exam\\Question_5\\Finals.csproj": {}
   },
   "projects": {
-    "D:\\User\\Desktop\\Week18\\Finals_5_unfinish\\Finals.csproj": {
+    "D:\\GitHub\\Automatic_Optical_Inspection_Practice\\Automatic Optical Inspection Practice Final Exam\\Question_5\\Finals.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\User\\Desktop\\Week18\\Finals_5_unfinish\\Finals.csproj",
+        "projectUniqueName": "D:\\GitHub\\Automatic_Optical_Inspection_Practice\\Automatic Optical Inspection Practice Final Exam\\Question_5\\Finals.csproj",
         "projectName": "Finals",
-        "projectPath": "D:\\User\\Desktop\\Week18\\Finals_5_unfinish\\Finals.csproj",
+        "projectPath": "D:\\GitHub\\Automatic_Optical_Inspection_Practice\\Automatic Optical Inspection Practice Final Exam\\Question_5\\Finals.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\User\\Desktop\\Week18\\Finals_5_unfinish\\obj\\",
+        "outputPath": "D:\\GitHub\\Automatic_Optical_Inspection_Practice\\Automatic Optical Inspection Practice Final Exam\\Question_5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,8 +25,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -79,6 +78,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -87,7 +92,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

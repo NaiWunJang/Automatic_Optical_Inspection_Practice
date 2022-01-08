@@ -1,408 +1,9 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "AForge/2.2.5": {
-        "type": "package",
-        "compile": {
-          "lib/AForge.dll": {}
-        },
-        "runtime": {
-          "lib/AForge.dll": {}
-        }
-      },
-      "AForge.Imaging/2.2.5": {
-        "type": "package",
-        "dependencies": {
-          "AForge": "2.2.5",
-          "AForge.Math": "2.2.5"
-        },
-        "compile": {
-          "lib/AForge.Imaging.dll": {}
-        },
-        "runtime": {
-          "lib/AForge.Imaging.dll": {}
-        }
-      },
-      "AForge.Imaging.Formats/2.2.5": {
-        "type": "package",
-        "compile": {
-          "lib/AForge.Imaging.Formats.dll": {}
-        },
-        "runtime": {
-          "lib/AForge.Imaging.Formats.dll": {}
-        }
-      },
-      "AForge.Math/2.2.5": {
-        "type": "package",
-        "dependencies": {
-          "AForge": "2.2.5"
-        },
-        "compile": {
-          "lib/AForge.Math.dll": {}
-        },
-        "runtime": {
-          "lib/AForge.Math.dll": {}
-        }
-      },
-      "Microsoft.NETCore.Platforms/5.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/_._": {}
-        }
-      },
-      "Microsoft.Win32.SystemEvents/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0"
-        },
-        "compile": {
-          "ref/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "System.Drawing.Common/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Win32.SystemEvents": "5.0.0"
-        },
-        "compile": {
-          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Drawing.Common.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "System.Reflection.Emit/4.7.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "Tesseract/4.1.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Reflection.Emit": "4.7.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Tesseract.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Tesseract.dll": {}
-        },
-        "build": {
-          "build/Tesseract.targets": {}
-        }
-      },
-      "Tesseract.Drawing/4.1.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Drawing.Common": "5.0.0",
-          "Tesseract": "4.1.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Tesseract.Drawing.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Tesseract.Drawing.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "AForge/2.2.5": {
-      "sha512": "clkumhM9DggqIzEXAHgVLeWO4arG5YfoPr7J4jfjJx35AoeEIJSSm49J25bwp/9mXQYLwi7y1Wunc8qgYJsGxg==",
-      "type": "package",
-      "path": "aforge/2.2.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "aforge.2.2.5.nupkg.sha512",
-        "aforge.nuspec",
-        "lib/AForge.dll",
-        "lib/AForge.xml"
-      ]
-    },
-    "AForge.Imaging/2.2.5": {
-      "sha512": "n8l7Zdsm89EFW9Uz4uCO3D428Gu4Q56YxixSMJPruen1c30R8R9Mm8AreTdoOi2XjN5id04JwFFlXYTk8pIIfw==",
-      "type": "package",
-      "path": "aforge.imaging/2.2.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "aforge.imaging.2.2.5.nupkg.sha512",
-        "aforge.imaging.nuspec",
-        "lib/AForge.Imaging.dll",
-        "lib/AForge.Imaging.xml"
-      ]
-    },
-    "AForge.Imaging.Formats/2.2.5": {
-      "sha512": "/cU2iTJYpO+m6Z0Xn+qUs32eT+j/2ZM8nDhDwj5dd9QewTr5AchotQgaZCexSD07K+j0SXQnHQHeiM+IahkTfQ==",
-      "type": "package",
-      "path": "aforge.imaging.formats/2.2.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "AForge.Controls.dll",
-        "AForge.Controls.xml",
-        "AForge.DebuggerVisualizers (2010).dll",
-        "AForge.Fuzzy.dll",
-        "AForge.Fuzzy.xml",
-        "AForge.Genetic.dll",
-        "AForge.Genetic.xml",
-        "AForge.Imaging.Formats.dll",
-        "AForge.Imaging.Formats.xml",
-        "AForge.Imaging.IPPrototyper.dll",
-        "AForge.Imaging.dll",
-        "AForge.Imaging.xml",
-        "AForge.MachineLearning.dll",
-        "AForge.MachineLearning.xml",
-        "AForge.Math.dll",
-        "AForge.Math.xml",
-        "AForge.Neuro.dll",
-        "AForge.Neuro.xml",
-        "AForge.Robotics.Lego.dll",
-        "AForge.Robotics.Lego.xml",
-        "AForge.Robotics.Surveyor.dll",
-        "AForge.Robotics.Surveyor.xml",
-        "AForge.Robotics.TeRK.dll",
-        "AForge.Robotics.TeRK.xml",
-        "AForge.Video.DirectShow.dll",
-        "AForge.Video.DirectShow.xml",
-        "AForge.Video.FFMPEG.dll",
-        "AForge.Video.FFMPEG.xml",
-        "AForge.Video.Kinect.dll",
-        "AForge.Video.Kinect.xml",
-        "AForge.Video.VFW.dll",
-        "AForge.Video.VFW.xml",
-        "AForge.Video.Ximea.dll",
-        "AForge.Video.Ximea.xml",
-        "AForge.Video.dll",
-        "AForge.Video.xml",
-        "AForge.Vision.dll",
-        "AForge.Vision.xml",
-        "AForge.dll",
-        "AForge.xml",
-        "IPPrototyper.exe",
-        "aforge.imaging.formats.2.2.5.nupkg.sha512",
-        "aforge.imaging.formats.nuspec",
-        "lib/AForge.Imaging.Formats.dll",
-        "lib/AForge.Imaging.Formats.xml",
-        "nuget.exe"
-      ]
-    },
-    "AForge.Math/2.2.5": {
-      "sha512": "pmT1WobVv13vMxwXhCu8sRunxjiUHyURWS0+dsW/aBPi06xiyYIdCLHI6jph9Axb4QoLIlb85eBI6zd2EAbGIg==",
-      "type": "package",
-      "path": "aforge.math/2.2.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "aforge.math.2.2.5.nupkg.sha512",
-        "aforge.math.nuspec",
-        "lib/AForge.Math.dll",
-        "lib/AForge.Math.xml"
-      ]
-    },
-    "Microsoft.NETCore.Platforms/5.0.0": {
-      "sha512": "VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
-      "type": "package",
-      "path": "microsoft.netcore.platforms/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-        "microsoft.netcore.platforms.nuspec",
-        "runtime.json",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "Microsoft.Win32.SystemEvents/5.0.0": {
-      "sha512": "Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
-      "type": "package",
-      "path": "microsoft.win32.systemevents/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Win32.SystemEvents.dll",
-        "lib/net461/Microsoft.Win32.SystemEvents.xml",
-        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-        "microsoft.win32.systemevents.nuspec",
-        "ref/net461/Microsoft.Win32.SystemEvents.dll",
-        "ref/net461/Microsoft.Win32.SystemEvents.xml",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Drawing.Common/5.0.0": {
-      "sha512": "SztFwAnpfKC8+sEKXAFxCBWhKQaEd97EiOL7oZJZP56zbqnLpmxACWA8aGseaUExciuEAUuR9dY8f7HkTRAdnw==",
-      "type": "package",
-      "path": "system.drawing.common/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.Drawing.Common.dll",
-        "lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "lib/netstandard2.0/System.Drawing.Common.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net461/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.xml",
-        "ref/netstandard2.0/System.Drawing.Common.dll",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "system.drawing.common.5.0.0.nupkg.sha512",
-        "system.drawing.common.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Reflection.Emit/4.7.0": {
-      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
-      "type": "package",
-      "path": "system.reflection.emit/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/netcore50/System.Reflection.Emit.dll",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.1/System.Reflection.Emit.dll",
-        "lib/netstandard1.1/System.Reflection.Emit.xml",
-        "lib/netstandard1.3/System.Reflection.Emit.dll",
-        "lib/netstandard2.0/System.Reflection.Emit.dll",
-        "lib/netstandard2.0/System.Reflection.Emit.xml",
-        "lib/netstandard2.1/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.1/System.Reflection.Emit.dll",
-        "ref/netstandard1.1/System.Reflection.Emit.xml",
-        "ref/netstandard1.1/de/System.Reflection.Emit.xml",
-        "ref/netstandard1.1/es/System.Reflection.Emit.xml",
-        "ref/netstandard1.1/fr/System.Reflection.Emit.xml",
-        "ref/netstandard1.1/it/System.Reflection.Emit.xml",
-        "ref/netstandard1.1/ja/System.Reflection.Emit.xml",
-        "ref/netstandard1.1/ko/System.Reflection.Emit.xml",
-        "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
-        "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
-        "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
-        "ref/netstandard2.0/System.Reflection.Emit.dll",
-        "ref/netstandard2.0/System.Reflection.Emit.xml",
-        "ref/netstandard2.1/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
-        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
-        "system.reflection.emit.4.7.0.nupkg.sha512",
-        "system.reflection.emit.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "Tesseract/4.1.1": {
-      "sha512": "abufaW6N3P7TGJPI3RNTMSzS1ycnE1w6aW/Q+Hco/wCgm+bXUgR87JsGELvTcm2FISXGlQgs+PvYMVo9SlcPfg==",
-      "type": "package",
-      "path": "tesseract/4.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Tesseract.targets",
-        "lib/net40/Tesseract.dll",
-        "lib/net45/Tesseract.dll",
-        "lib/netstandard2.0/Tesseract.dll",
-        "lib/netstandard2.0/Tesseract.xml",
-        "tesseract.4.1.1.nupkg.sha512",
-        "tesseract.nuspec",
-        "x64/leptonica-1.80.0.dll",
-        "x64/tesseract41.dll",
-        "x86/leptonica-1.80.0.dll",
-        "x86/tesseract41.dll"
-      ]
-    },
-    "Tesseract.Drawing/4.1.1": {
-      "sha512": "e4It6wAlU20bw6sLlcqe+Hx+2AN8gDkAcaqRMNQT5fQ5VDYvnOE9d8gx+jAoY6GyqVcoAPFxmvt9BDpUe46upw==",
-      "type": "package",
-      "path": "tesseract.drawing/4.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Tesseract.Drawing.dll",
-        "tesseract.drawing.4.1.1.nupkg.sha512",
-        "tesseract.drawing.nuspec"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AForge >= 2.2.5",
@@ -420,11 +21,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\User\\Desktop\\Week18\\Finals_5_unfinish\\Finals.csproj",
+      "projectUniqueName": "D:\\GitHub\\Automatic_Optical_Inspection_Practice\\Automatic Optical Inspection Practice Final Exam\\Question_5\\Finals.csproj",
       "projectName": "Finals",
-      "projectPath": "D:\\User\\Desktop\\Week18\\Finals_5_unfinish\\Finals.csproj",
+      "projectPath": "D:\\GitHub\\Automatic_Optical_Inspection_Practice\\Automatic Optical Inspection Practice Final Exam\\Question_5\\Finals.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\User\\Desktop\\Week18\\Finals_5_unfinish\\obj\\",
+      "outputPath": "D:\\GitHub\\Automatic_Optical_Inspection_Practice\\Automatic Optical Inspection Practice Final Exam\\Question_5\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -438,8 +39,7 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -492,6 +92,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.22, 3.1.22]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -500,47 +106,70 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'AForge 2.2.5'。此套件與您的專案並非完全相容。",
-      "libraryId": "AForge",
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 Tesseract.Drawing。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Tesseract.Drawing",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
     },
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'AForge.Imaging 2.2.5'。此套件與您的專案並非完全相容。",
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 AForge.Imaging。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
       "libraryId": "AForge.Imaging",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
     },
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'AForge.Imaging.Formats 2.2.5'。此套件與您的專案並非完全相容。",
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 AForge.Math。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
+      "libraryId": "AForge.Math",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 Tesseract。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Tesseract",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 AForge.Imaging.Formats。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
       "libraryId": "AForge.Imaging.Formats",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
     },
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'AForge.Math 2.2.5'。此套件與您的專案並非完全相容。",
-      "libraryId": "AForge.Math",
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 AForge。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
+      "libraryId": "AForge",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 Microsoft.NETCore.App.Host.win-x64。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

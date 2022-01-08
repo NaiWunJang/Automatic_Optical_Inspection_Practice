@@ -1,3 +1,9 @@
 is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = 
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = Finals
-build_property.ProjectDir = D:\User\Desktop\Week18\Finals_2\
+build_property.ProjectDir = D:\GitHub\Automatic_Optical_Inspection_Practice\Automatic Optical Inspection Practice Final Exam\Question_2\

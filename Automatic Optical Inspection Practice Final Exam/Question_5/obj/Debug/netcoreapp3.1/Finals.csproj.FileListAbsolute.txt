@@ -72,3 +72,5 @@ D:\User\Desktop\Week18\Finals_5_unfinish\obj\Debug\netcoreapp3.1\Finals.csproj.C
 D:\User\Desktop\Week18\Finals_5_unfinish\obj\Debug\netcoreapp3.1\Finals.dll
 D:\User\Desktop\Week18\Finals_5_unfinish\obj\Debug\netcoreapp3.1\Finals.pdb
 D:\User\Desktop\Week18\Finals_5_unfinish\obj\Debug\netcoreapp3.1\Finals.genruntimeconfig.cache
+D:\GitHub\Automatic_Optical_Inspection_Practice\Automatic Optical Inspection Practice Final Exam\Question_5\obj\Debug\netcoreapp3.1\Finals.dll
+D:\GitHub\Automatic_Optical_Inspection_Practice\Automatic Optical Inspection Practice Final Exam\Question_5\obj\Debug\netcoreapp3.1\Finals.pdb

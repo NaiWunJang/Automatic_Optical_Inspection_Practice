@@ -1,51 +1,51 @@
 {
   "version": 2,
-  "dgSpecHash": "VFQLsXWV7bgZnnEw6NGmZRir0XSfoK2crwfVNBKUssiO41eXOVqw3OcHLrxJuuK75x9rNgy86nmC6li2/hlJPQ==",
-  "success": true,
-  "projectFilePath": "D:\\User\\Desktop\\Week18\\Finals_3\\Finals.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\aforge.imaging\\2.2.5\\aforge.imaging.2.2.5.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\aforge.imaging.formats\\2.2.5\\aforge.imaging.formats.2.2.5.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\aforge.math\\2.2.5\\aforge.math.2.2.5.nupkg.sha512"
-  ],
+  "dgSpecHash": "qWCY+1IFjdqmMAN4PN7bjYGwwz8NYM5xo6kb4oGImFcWTPjaIrUzp9RUcgnfVLZvGpbNNrpsCCigVQ73jmcA5w==",
+  "success": false,
+  "projectFilePath": "D:\\GitHub\\Automatic_Optical_Inspection_Practice\\Automatic Optical Inspection Practice Final Exam\\Question_3\\Finals.csproj",
+  "expectedPackageFiles": [],
   "logs": [
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'AForge 2.2.5'。此套件與您的專案並非完全相容。",
-      "libraryId": "AForge",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'AForge.Imaging 2.2.5'。此套件與您的專案並非完全相容。",
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 AForge.Imaging。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
       "libraryId": "AForge.Imaging",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
     },
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'AForge.Imaging.Formats 2.2.5'。此套件與您的專案並非完全相容。",
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 AForge.Math。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
+      "libraryId": "AForge.Math",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 AForge.Imaging.Formats。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
       "libraryId": "AForge.Imaging.Formats",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
     },
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'AForge.Math 2.2.5'。此套件與您的專案並非完全相容。",
-      "libraryId": "AForge.Math",
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 AForge。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
+      "libraryId": "AForge",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到套件 Microsoft.NETCore.App.Host.win-x64。在來源中不存在此識別碼的套件: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
