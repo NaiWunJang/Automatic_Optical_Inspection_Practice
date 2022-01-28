@@ -15,3 +15,5 @@ Automatic Optical Inspection Practice
 ## Question_5
 ![image](https://user-images.githubusercontent.com/91878423/148646314-11988ba8-50eb-4076-841a-dfb4c70d8ebb.png)
 
+## case2.py 實驗畫面
+![Myback](https://user-images.githubusercontent.com/91878423/151567284-224135cb-ba4e-4189-913a-ef9153416ffe.png)
